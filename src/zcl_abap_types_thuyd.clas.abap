@@ -1,4 +1,4 @@
-CLASS zcl_if_oo_adt_classrun_thuyd DEFINITION
+CLASS zcl_abap_types_thuyd DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,11 +12,10 @@ ENDCLASS.
 
 
 
-CLASS zcl_if_oo_adt_classrun_thuyd IMPLEMENTATION.
+CLASS zcl_abap_types_thuyd IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-
 * Data Objects with Built-in Types
 **********************************************************************
 
