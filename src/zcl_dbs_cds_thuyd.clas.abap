@@ -15,7 +15,8 @@ ENDCLASS.
 CLASS zcl_dbs_cds_thuyd IMPLEMENTATION.
 
 
-  METHOD if_oo_adt_classrun~main.DATA connection TYPE REF TO lcl_connection.
+  METHOD if_oo_adt_classrun~main.
+    DATA connection TYPE REF TO lcl_connection.
     DATA connections TYPE TABLE OF REF TO lcl_connection.
 
 * First Instance
